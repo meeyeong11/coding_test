@@ -63,7 +63,7 @@ print(x_tr.shape, y_tr.shape)
 print(x_val.shape, y_val.shape)
 
 #Encoder
-h_dim = 30
+h_dim = 20
 dropout_r = 0.4
 enc_input = Input(shape=(max_in_len), name='enc-in')
 enc_emb = Embedding(len(x_vocab_idx)+1,len(x_vocab_idx) , trainable=True,  name='enc-emb')(enc_input)
