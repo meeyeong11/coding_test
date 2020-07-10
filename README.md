@@ -33,6 +33,12 @@
 
 - Bidirectional Encoder-Decoder Model https://drive.google.com/file/d/1l82PWgmwRfBgFMd-Q3u-gLqIiXosgaTD/view?usp=sharing
 
+# Data Distription
+| training data  |                         | test data | maximum source seq length  | maximum target seq length |
+|----------------|-------------------------|-----------|----------------------------|---------------------------|
+| total          | missing target sequence |           |                            |                           |
+|          7,260 |                   1,270 |     2,000 |                         81 |                        47 |
+
 # Results
 ## 1. n-gram generator
 |         | rouge-1       |               |               | rouge-2       |               |               | rouge-l       |               |               |
