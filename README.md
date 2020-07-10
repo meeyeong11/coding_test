@@ -27,11 +27,14 @@
   * <seq2seq-bi_dir-lstm.py>: encoder-decoder model using bi-directional lstm layer
   
 # Models
-- N-gram  https://drive.google.com/file/d/1mtTb3saso5_F3YwBcGeV3ArxbqKtpdl1/view?usp=sharing
+- N-gram 
+ * ![flow chart](ngram_model.png) https://drive.google.com/file/d/1mtTb3saso5_F3YwBcGeV3ArxbqKtpdl1/view?usp=sharing
 
-- Encoder-Decoder Model https://drive.google.com/file/d/1_eR6c03AR6MdzlLgdQDqLAknBOCsQ7lA/view?usp=sharing
+- Encoder-Decoder Model 
+ * ![diagram1](simple-lstm.png)https://drive.google.com/file/d/1_eR6c03AR6MdzlLgdQDqLAknBOCsQ7lA/view?usp=sharing
 
-- Bidirectional Encoder-Decoder Model https://drive.google.com/file/d/1l82PWgmwRfBgFMd-Q3u-gLqIiXosgaTD/view?usp=sharing
+- Bidirectional Encoder-Decoder Model 
+ * ![diagram1](bidir-lstm.png) https://drive.google.com/file/d/1l82PWgmwRfBgFMd-Q3u-gLqIiXosgaTD/view?usp=sharing
 
 # Data Distription
 | training data  |                         | test data | maximum source seq length  | maximum target seq length |
