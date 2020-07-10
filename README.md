@@ -25,16 +25,22 @@
   * <ngram_gen.py>: use probability file stroed in <./probs/> to model target sequence
   * <seq2seq-lstm.py>: encoder-decoder model with simple lstm layer
   * <seq2seq-bi_dir-lstm.py>: encoder-decoder model using bi-directional lstm layer
+- <ngram_model.png>: ngram model flow chart 
+- <simple-lstm.png>: simple lstm encoder-decoder model diagram 
+- <bidir-lstm.png>: bidirectional lstm encoder-decoder model diagram 
   
 # Models
 - N-gram 
- * ![flow chart](ngram_model.png) https://drive.google.com/file/d/1mtTb3saso5_F3YwBcGeV3ArxbqKtpdl1/view?usp=sharing
+ * ![flow chart](ngram_model.png) 
+ * https://drive.google.com/file/d/1mtTb3saso5_F3YwBcGeV3ArxbqKtpdl1/view?usp=sharing
 
 - Encoder-Decoder Model 
- * ![diagram1](simple-lstm.png)https://drive.google.com/file/d/1_eR6c03AR6MdzlLgdQDqLAknBOCsQ7lA/view?usp=sharing
+ * ![diagram1](simple-lstm.png)
+ * https://drive.google.com/file/d/1_eR6c03AR6MdzlLgdQDqLAknBOCsQ7lA/view?usp=sharing
 
 - Bidirectional Encoder-Decoder Model 
- * ![diagram1](bidir-lstm.png) https://drive.google.com/file/d/1l82PWgmwRfBgFMd-Q3u-gLqIiXosgaTD/view?usp=sharing
+ * ![diagram1](bidir-lstm.png) 
+ * https://drive.google.com/file/d/1l82PWgmwRfBgFMd-Q3u-gLqIiXosgaTD/view?usp=sharing
 
 # Data Distription
 | training data  |                         | test data | maximum source seq length  | maximum target seq length |
