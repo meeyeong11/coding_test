@@ -62,3 +62,17 @@
 
 
 ## 2. Simple LSTM Model vs. Bi-directional LSTM Model
+|                         | rouge-1 |        | 　     | rouge-2 |        | 　     | rouge-l  |        | 　     |
+|-------------------------|---------|--------|--------|---------|--------|--------|----------|--------|--------|
+|                         | p       | r      | f      | p       | r      | f      | p        | r      | f      |
+| h_dim=20-dropout=0.4    | 0.2966  | 0.1793 | 0.2169 | 0.1072  | 0.0568 | 0.0714 | 0.2472   | 0.1496 | 0.1606 |
+| Bi-h_dim=10-dropout=0.4 | 0.4378  | 0.1962 | 0.2627 | 0.2301  | 0.0847 | 0.1192 | 0.4213   | 0.188  | 0.2044 |
+
+## 3. Bi-directional LSTM model trained with <train_target.txt> vs. <new_train_target.txt> 
+- <new_train_target.txt> is the improved version of <train_target.txt> that filled the missing data with 37-gram model generated sequences. 
+
+|                                        | rouge-1 |        | 　     | rouge-2 |        | 　     | rouge-l  |       | 　     |
+|----------------------------------------|---------|--------|--------|---------|--------|--------|----------|-------|--------|
+|                                        | p       | r      | f      | p       | r      | f      | p        | r     | f      |
+| Bi-h_dim=10-dropout=0.4                | 0.4378  | 0.1962 | 0.2627 | 0.2301  | 0.0847 | 0.1192 | 0.4213   | 0.188 | 0.2044 |
+| filled_missing-Bi-h_dim=10-dropout=0.4 | 0.3669  | 0.2448 | 0.2841 | 0.1792  | 0.1163 | 0.1348 | 0.3328   | 0.221 | 0.2331 |
